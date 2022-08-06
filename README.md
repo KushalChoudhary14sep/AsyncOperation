@@ -21,8 +21,6 @@ class CustomClass: AsyncOperation {
    
   }
 
-}
-
   override func finish() {
   
     super.finish()
@@ -30,3 +28,5 @@ class CustomClass: AsyncOperation {
     //Perform any sub-task after the operation is finished
     
   }
+
+}
